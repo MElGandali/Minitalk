@@ -1,2 +1,2 @@
 # Minitalk
-The purpose of this project is to code a small data exchange program using UNIX signals
+The project requires the creation of a client-server communication program that utilizes UNIX signals for communication. The server must be started first and print its PID. The client takes two parameters - the PID of the server and the string to send. The client must send the string to the server, which will print it once received. The server must display the string quickly, without any significant delay. The program should be able to receive strings from multiple clients without needing to restart. Only two signals - SIGUSR1 and SIGUSR2 - can be used for communication between the client and server.
